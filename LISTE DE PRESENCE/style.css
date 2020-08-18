@@ -1,0 +1,116 @@
+
+/*------------------------------------------------------------my body ymii-------------------------------------*/
+main{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 1px solid;
+  	padding: 80px;
+  	padding-top: 38px;
+  	box-shadow: 1px 3px 4px;
+  	border-top: 25px solid red;
+  	background-color: #fff;
+ 	}
+html{
+	background-image: url("image.jpg");
+	display: flex;
+	justify-content: center;
+	margin-top:2%;
+	margin-bottom: 2%;
+}
+/*------------------------------------------------------------my header ymii-------------------------------------*/
+.dev-web {
+  display: flex;
+  justify-content: space-between;
+  height: 62px;
+  margin-right: 193px;
+  margin-left: 8px;
+  color: #ff0000;
+}
+.liste{
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	margin-right: 193px;
+  	margin-left: 8px;
+}
+.color{
+	display: flex;
+	justify-content: space-between;
+	height: 2px;
+	width: 49px;
+	border-bottom: 6px solid red;
+	margin-bottom: 45px;
+	margin-left: 8px;
+}
+.formateur{
+	color: #ff0000;
+
+}
+/*------------------------------------------------------------The end of my header ymii-------------------------------------*/
+
+/*------------------------------------------------------------my table ymii-------------------------------------*/
+table{
+	border-collapse: collapse;
+}
+
+table, td, th{
+	border: 1px solid black;
+	height: 28px;
+}
+.rens{
+	text-align: left;
+	background-color: red;
+	color: white;
+}
+.num{
+	width: 28px;
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+.time{
+	width: 130px;
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+.sign{
+	width: 100px;
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+th{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+td{
+	height: 28px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;	
+}
+.chi{
+	text-align: center;
+}
+.letmo{
+	text-align: center;
+	margin-top: 26px;
+	color: #787878;
+	font-size: 18px;
+}
+/*------------------------------------------------------------The end of my table ymii-------------------------------------*/
+/*------------------------------------------------------------The end of my body  ymii-------------------------------------*/
+
+@media (max-device-width:720px)
+(orientation:landscape){
+  html{
+    -webkit-text-size-adjust: 100%;
+     -ms-text-size-adjust:100%{
+  }
+}
+@media screen and (max-width: 720px){
+}
+@media screen and (min-width: 150px){
+}
